@@ -1,8 +1,13 @@
+import os
 from telegram import Update, WebAppInfo
 from telegram.ext import Application, CommandHandler, ContextTypes
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
+from dotenv import load_dotenv
+# Load environment variables
+load_dotenv()
 
-TOKEN = "7307095277:AAFQZvDcjhXz3Gtv1qFBgsKHp9tNX67gKwA"
+TELEGRAM_BOT_TOKEN = os.getenv('ENV_TELEGRAM_BOT_TOKEN')
+TOKEN = ENV_TELEGRAM_BOT_TOKEN
 WEB_APP_URL = "https://blink-mini.vercel.app/"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
