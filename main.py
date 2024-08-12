@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-TELEGRAM_BOT_TOKEN = os.getenv('ENV_TELEGRAM_BOT_TOKEN')
+ENV_TELEGRAM_BOT_TOKEN = os.getenv('ENV_TELEGRAM_BOT_TOKEN')
 TOKEN = ENV_TELEGRAM_BOT_TOKEN
 WEB_APP_URL = "https://blink-mini.vercel.app/"
 
