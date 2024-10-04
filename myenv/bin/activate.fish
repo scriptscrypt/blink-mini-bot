@@ -30,7 +30,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/srinivasa/Desktop/blink-mini-bot/myenv"
+set -gx VIRTUAL_ENV "/Users/Crypt/Code/One Last Folder/Websites/blink-mini-bot/myenv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

@@ -12,7 +12,7 @@ WEB_APP_URL = "https://blink-mini.vercel.app/"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     keyboard = [
-        [InlineKeyboardButton("Open Web App", web_app=WebAppInfo(url=WEB_APP_URL))]
+        [InlineKeyboardButton("Open Blink 👀", web_app=WebAppInfo(url=WEB_APP_URL))]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     await update.message.reply_text("Welcome! Click the button to open the web app:", reply_markup=reply_markup)

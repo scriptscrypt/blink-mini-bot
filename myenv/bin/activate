@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/srinivasa/Desktop/blink-mini-bot/myenv"
+VIRTUAL_ENV="/Users/Crypt/Code/One Last Folder/Websites/blink-mini-bot/myenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
